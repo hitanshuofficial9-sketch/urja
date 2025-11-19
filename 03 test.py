@@ -4,4 +4,4 @@ c=".,/?@!"
 for i in str:
     if i not in c:
         b=b+i.lower()
-print(b)        
+print(b)      
