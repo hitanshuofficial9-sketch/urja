@@ -1,7 +1,4 @@
-def simpleinterest():
-    p=int(input("enter yout principle amount"))
-    r=int(input("enter the rate of interest"))
-    t=int(input("enter time in month"))
+def simpleinterest(p,r,t):
     print((p*r*t)/(100*12))
 
-simpleinterest()    
+simpleinterest(100,10,12)    
