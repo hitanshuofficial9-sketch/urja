@@ -1,4 +1,3 @@
-import hello as h
-h.greet("urja")
+from mypackage import maths_tools
 
-h.greet("aman")
+maths_tools.add(2,3)
